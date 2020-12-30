@@ -21,5 +21,30 @@ body {
   background: url('/assets/images/login_title.png') no-repeat center;
 }
 .reg-box {
-    display: none;
-  }
+  display: none;
+}
+
+.layui-form {
+  padding: 0 30px;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.links a {
+  font-size: 12px;
+}
+
+.layui-form-item {
+  position: relative;
+}
+
+.layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.layui-input {
+  padding-left: 32px;
+}
