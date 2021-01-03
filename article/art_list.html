@@ -62,7 +62,7 @@
         <td>{{$value.pub_date|dataFormat}}</td>
         <td>{{$value.state}}</td>
         <td>
-          <button type="button" class="layui-btn layui-btn-xs">编辑</button>
+          <a href="/article/art_edit.html?id={{$value.Id}}" type="button" class="layui-btn layui-btn-xs">编辑</a>
           <button type="button" class="layui-btn layui-btn-danger layui-btn-xs btn-delete" data-id="{{$value.Id}}">删除</button>
         </td>
       </tr>
